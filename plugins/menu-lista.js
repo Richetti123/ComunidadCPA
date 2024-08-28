@@ -242,7 +242,7 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃➺ _${usedPrefix}ownermenu_
 ┃
 *╰━━━━━━━━━━━━━⬣*`.trim()
-await conn.sendFile(m.chat, gataImg, './Menu2.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' CPACoins ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu}}}) 
+await conn.sendFile(m.chat, gataImg, './Menu2.jpg', menu, fkontak, false, { contextInfo: {mentionedJid, externalAdReply :{ mediaUrl: null, mediaType: 1, description: null, title: gt, body: ' ComunidadCPA ', previewType: 0, thumbnail: imagen4, sourceUrl: redesMenu}}}) 
 await conn.sendMessage(m.chat, { audio: { url: vn }, fileName: 'error.mp3', mimetype: 'audio/mp4', ptt: true }, { quoted: m }) 
 //conn.sendFile(m.chat, gataVidMenu.getRandom(), 'gata.mp4', menu, fkontak)
 }} catch (e) {
